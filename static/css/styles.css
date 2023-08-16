@@ -37,3 +37,14 @@ body {
     font-size: 100%; /* 100% represents the default font size of the browser */
     color: #CFCFCF;
 }
+
+h1 {
+    font-size: 3em;
+    font-weight: 400;
+}
+
+/* SPANS */
+
+#tom-text {
+    font-weight: 600;
+}
