@@ -41,6 +41,12 @@ body {
 h1 {
     font-size: 3em;
     font-weight: 400;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+p.personal-introduction {
+    margin: 0;
 }
 
 /* SPANS */
