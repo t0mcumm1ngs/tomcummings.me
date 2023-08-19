@@ -57,6 +57,13 @@ p.personal-introduction {
 
 /* CONTAINERS / DIVS */
 
+div.social-links-container {
+    position: fixed;
+    right: 10vw;
+    top: 10vh;
+    width: 2vw;
+}
+
 div.welcome-text-container {
     margin-left: 10vw;
     margin-right: 10vw;
@@ -65,4 +72,10 @@ div.welcome-text-container {
     width: 350px;
     overflow: hidden;
     white-space: normal;
+}
+
+/* DIV CHILDREN */
+
+div.social-links-container img.social-link-image {
+    margin-bottom: 1vh;
 }
