@@ -54,3 +54,15 @@ p.personal-introduction {
 #tom-text {
     font-weight: 600;
 }
+
+/* CONTAINERS / DIVS */
+
+div.welcome-text-container {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    position: relative;
+    top: 40vh;
+    width: 350px;
+    overflow: hidden;
+    white-space: normal;
+}
