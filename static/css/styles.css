@@ -76,7 +76,7 @@ div.welcome-text-container {
     width: auto;
     max-width: 350px;
     aspect-ratio: 14/5;
-    overflow: hidden;
+    overflow: visible;
     white-space: normal;
 }
 
