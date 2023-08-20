@@ -69,7 +69,11 @@ div.welcome-text-container {
     margin-right: 10vw;
     position: relative;
     top: 40vh;
-    width: 350px;
+    height: auto;
+    max-height: 125px;
+    width: auto;
+    max-width: 350px;
+    aspect-ratio: 14/5;
     overflow: hidden;
     white-space: normal;
 }
