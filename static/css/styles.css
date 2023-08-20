@@ -45,7 +45,7 @@ h1 {
     margin-bottom: 8px;
 }
 
-p.personal-introduction {
+p#welcome-text-body {
     margin: 0;
 }
 
