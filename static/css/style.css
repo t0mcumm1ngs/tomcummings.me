@@ -1,0 +1,65 @@
+
+body {
+    background-color: #445456;
+    font-family: 'Open Runde', sans-serif;
+    font-weight: 400;
+    font-size: 100%; /* 100% represents the default font size of the browser */
+    color: #CFCFCF;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+p#welcome-text-body {
+    margin: 0;
+}
+
+/* SPANS */
+
+#thom-text {
+    font-weight: 600;
+}
+
+/* CONTAINERS / DIVS */
+
+div.social-links-container {
+    position: fixed;
+    right: 10vw;
+    top: 10vh;
+    width: 2vw;
+    min-width: 20px;
+    max-width: 30px;
+}
+
+div.welcome-text-container {
+    margin-left: 10vw;
+    margin-right: 20vw;
+    position: relative;
+    top: 40vh;
+    height: auto;
+    max-height: 125px;
+    width: auto;
+    max-width: 350px;
+    aspect-ratio: 14/5;
+    overflow: visible;
+    white-space: normal;
+}
+
+/* DIV CHILDREN */
+
+div.social-links-container img.social-link-image {
+    margin-bottom: 1vh;
+}
+
+
+/* 3D Model */
+
+div.model-container {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+  }
