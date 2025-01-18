@@ -1,2 +1,3 @@
-# tomcummings.me
-The code behind my personal portfolio site, hosted on CENTRI
+# thomcummings.dev
+
+This repo contains the source code for my personal website.
