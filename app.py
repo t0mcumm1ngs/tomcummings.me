@@ -8,12 +8,12 @@ app = Flask(__name__)
 @app.route("/")
 @app.route("/home")
 def home():
+    """Function to render the home page"""
     return render_template("home.html")
-
-# API Routes
 
 @app.route("/ping", methods = ["GET"])
 def ping():
+    """Function to test if the server is up and running"""
     return "pong"
 
 if __name__ == "__main__":
