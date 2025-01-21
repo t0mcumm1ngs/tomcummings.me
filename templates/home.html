@@ -14,8 +14,19 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/fonts.css') }}">
     <link rel="stylesheet" href="https://use.typekit.net/wzd5hav.css">
 
-    <!-- Favicons & Other Icons -->
-    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicon.png') }}">
+    <!-- PNG & SVG Favicons -->
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/favicons/favicon-96x96.png') }}" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='images/favicons/favicon.svg') }}" />
+    
+    <!-- Standard Favicon -->
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicons/favicon.ico') }}" />
+    
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicons/apple-touch-icon.png') }}" />
+    
+    <!-- Manifest for Progressive Web Apps -->
+    <link rel="manifest" href="{{ url_for('static', filename='images/favicons/site.webmanifest') }}" />
+
 </head>
 
 <body>
