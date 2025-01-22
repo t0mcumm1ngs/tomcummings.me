@@ -1,13 +1,5 @@
 /* CUSTOM FONT IMPORTS */
 
-/* Bricolage Grotesque */
-
-@font-face {
-    font-family: 'BricolageGrotesque';
-    src: url('.../fonts/BricolageGrotesque/BricolageGrotesque-Variable.ttf');
-    font-weight: 100 900;
-}
-
 /* Open Runde */
 
 @font-face {
@@ -32,6 +24,14 @@
     font-family: 'Open Runde';
     src: url('../fonts/OpenRunde/woff2/OpenRunde-Bold.woff2'), url('../fonts/OpenRunde/woff/OpenRunde-Bold.woff');
     font-weight: 700;
+}
+
+/* Sriracha Display */
+
+@font-face {
+    font-family: 'Sriracha Display';
+    src: url('../fonts/SrirachaDisplay-Regular.otf');
+    font-weight: 400;
 }
 
 /* ------------------------------ */
