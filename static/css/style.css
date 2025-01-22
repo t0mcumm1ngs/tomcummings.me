@@ -61,11 +61,3 @@ div.social-links-container img.social-link-image {
     margin-bottom: 1vh;
 }
 
-
-/* 3D Model */
-
-div.model-container {
-    width: 600px;
-    height: 400px;
-    margin: 0 auto;
-  }
