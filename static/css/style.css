@@ -3,7 +3,7 @@ body {
     font-family: 'Open Runde', sans-serif;
     font-weight: 400;
     font-size: 100%; /* 100% represents the default font size of the browser */
-    color: #CFCFCF;
+    color: #BC001C;
 
     background-image: url('../images/smoke.jpg'); /* Path to your image */
     background-size: cover; /* Ensures the image covers the entire area */
@@ -11,23 +11,6 @@ body {
     background-attachment: fixed; /* Keeps the background fixed during scroll */
     background-position: center; /* Centers the image */
     background-color: #303030; /* Fallback color */
-}
-
-h1 {
-    font-size: 3em;
-    font-weight: 400;
-    margin: 0;
-    margin-bottom: 8px;
-}
-
-p#welcome-text-body {
-    margin: 0;
-}
-
-/* SPANS */
-
-#thom-text {
-    font-weight: 600;
 }
 
 /* CONTAINERS / DIVS */
@@ -41,23 +24,27 @@ div.social-links-container {
     max-width: 30px;
 }
 
-div.welcome-text-container {
-    margin-left: 10vw;
-    margin-right: 20vw;
-    position: relative;
-    top: 40vh;
-    height: auto;
-    max-height: 125px;
-    width: auto;
-    max-width: 350px;
-    aspect-ratio: 14/5;
-    overflow: visible;
-    white-space: normal;
-}
-
 /* DIV CHILDREN */
 
 div.social-links-container img.social-link-image {
     margin-bottom: 1vh;
 }
 
+#name {
+    width: auto;
+    height: 300px;
+    position: absolute;
+    top: 30vh;
+    left: 5vw;
+}
+
+#copyright-symbol-disclaimer {
+    font-family: 'Sriracha Display', cursive;
+    font-size: 2em;
+    color: #BC001C;
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    margin: 0;
+    padding: 0;
+}
