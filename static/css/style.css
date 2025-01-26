@@ -30,18 +30,19 @@ div.social-links-container img.social-link-image {
     margin-bottom: 1vh;
 }
 
-#name {
-    width: auto;
-    height: 300px;
+#thom-title {
+    width: 70vw;
+    max-width: 480px;
+    height: auto;
     position: absolute;
-    top: 30vh;
-    left: 5vw;
+    top: 25vh;
+    left: min(5vw, 100px);
 }
 
 #copyright-symbol-disclaimer {
     font-family: 'Sriracha Display', cursive;
     font-size: 2em;
-    color: #BC001C;
+    color: #FC0047;
     position: absolute;
     bottom: 15px;
     right: 20px;
