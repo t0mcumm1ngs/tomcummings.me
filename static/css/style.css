@@ -16,10 +16,10 @@ body {
 /* CONTAINERS / DIVS */
 
 div.social-links-container {
-    position: fixed;
-    right: 10vw;
-    top: 10vh;
-    width: 2vw;
+    position: absolute;
+    right: 5vw;
+    top: 5vh;
+    width: 3vw;
     min-width: 20px;
     max-width: 30px;
 }
